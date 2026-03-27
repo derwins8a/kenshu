@@ -1,4 +1,4 @@
-![Kenshu-Dojo-Banner-Light](https://capsule-render.vercel.app/api?type=venom&height=165&color=0:FF0000,100:AA0000&text=Kenshū%20Dojo&section=header&reversal=false&fontAlign=23&animation=fadeIn&fontAlignY=38&fontColor=EEE&textBg=false&desc=The%20purpose%20is%20not%20just%20to%20learn,%20but%20to%20polish%20the%20soul%20through%20disciplined%20practice.&descSize=17&descAlignY=67&fontSize=60&descAlign=59#gh-dark-mode-only)![Kenshu-Dojo-Banner-Dark](https://capsule-render.vercel.app/api?type=venom&height=165&color=0:FF0000,100:FFAAAA&text=Kenshū%20Dojo&section=header&reversal=false&fontAlign=23&animation=fadeIn&fontAlignY=38&fontColor=333&textBg=false&desc=The%20purpose%20is%20not%20just%20to%20learn,%20but%20to%20polish%20the%20soul%20through%20disciplined%20practice.&descSize=17&descAlignY=67&fontSize=60&descAlign=59#gh-light-mode-only)
+![Kenshu-Dojo-Banner-Light-Mode](https://raw.githubusercontent.com/derwins8a/kenshu/refs/heads/main/kenshu-dojo-banner-light-mode.svg#gh-light-mode-only)![Kenshu-Dojo-Banner-Dark-Mode](https://raw.githubusercontent.com/derwins8a/kenshu/refs/heads/main/kenshu-dojo-banner-dark-mode.svg#gh-dark-mode-only)
 
 # ⛩️ 研修 | KENSHŪ <sub><sup>*The Art of Technical Refinement & Continuous Growth*</sup></sub>
 
@@ -13,7 +13,7 @@ Welcome to the dojo.
 
 This is a curated space where I document my journey through computer science fundamentals, algorithmic problem solving, and software engineering.
 
-## 🏯 The Three Gates
+## 🏯 The Three Gates | 三門 (SANMON)
 I organize my progress using three levels of mastery:
 
 <table width="100%">
@@ -57,7 +57,7 @@ I organize my progress using three levels of mastery:
   </tbody>
 </table>
 
-## 🏮 The Inner Sanctum
+## 🏮 The Inner Sanctum | 奥の院 (OKUNOIN)
 Beyond pure algorithms, this repo contains:
 
 <table width="100%">
@@ -66,44 +66,90 @@ Beyond pure algorithms, this repo contains:
       <h3>🧪 試作 | SHISAKU (The Lab)</h3>
       <p><i>"Theory without practice is colorless; practice without theory is blind."</i></p>
       <p>This is where I build prototypes. From CLI tools to full-stack experiments, <b>Shisaku</b> is about turning algorithmic knowledge into functional software. Each folder here is a standalone proof-of-concept.</p>
-      <a href="./shisaku"><b>View Prototypes →</b></a>
+      <a href="./shisaku"><b>Enter the Forge →</b></a>
     </td>
     <td width="50%" valign="top">
       <h3>📜 記録 | KIROKU (The Logs)</h3>
       <p><i>"The palest ink is better than the best memory."</i></p>
       <br>
       <p><b>Kiroku</b> is my digital garden of knowledge. It contains my deep-dive notes from courses (Stanford, Princeton), mental models for system design, and retrospectives on particularly challenging LeetCode sessions.</p>
-      <a href="./kiroku"><b>Read the Chronicles →</b></a>
+      <a href="./kiroku"><b>Consult the Scrolls →</b></a>
     </td>
   </tr>
 </table>
 
-## 🚩 The Compass
+
+## 🚩 The Compass | 方針 (HŌSHIN)
 Defined path for the 2026 training cycle.
 
+
+<div align="center">
 <table width="100%">
   <tr>
     <td width="100%">
-      <b>🏛️ 核心 | Core Mastery</b>
+      <b>🏛️ 核心 (KAKUSHIN) | Core Mastery</b>
       <br>Complete the Princeton Algorithms I & II sequence.
-      <br><img src="https://geps.dev/progress/45?dangerColor=ff0000&warningColor=ff6666&successColor=aa0000" alt="Progress">
+      <br><img src="https://geps.dev/progress/1?dangerColor=ff0000&warningColor=ff6666&successColor=aa0000" alt="Progress">
     </td>
   </tr>
   <tr>
     <td>
-      <b>⚔️ 練磨 | The Daily Grind</b>
+      <b>⚔️ 練磨 (RENMA) | The Daily Grind</b>
       <br>Solve 200+ LeetCode problems (across Shokyū/Chūkyū).
       <br><img src="https://geps.dev/progress/1?dangerColor=ff0000&warningColor=ff0000&successColor=aa0000" alt="Progress">
     </td>
   </tr>
   <tr>
     <td>
-      <b>🛠️ 試作 | Shisaku Prototypes</b>
+      <b>🛠️ 試作 (SHISAKU) | Prototypes</b>
       <br>Build 3 production-ready mini projects in the Lab.
       <br><img src="https://geps.dev/progress/0?dangerColor=ff0000&warningColor=ff0000&successColor=aa0000" alt="Progress">
     </td>
   </tr>
 </table>
+</div>
+
+## 🙇 Acknowledgments | 敬意 (KEI-I)
+Respect to the masters and resources guiding this path.
+
+<div align="center">
+<table width="100%">
+  <tr>
+    <td align="center" width="25%">
+      <img src="https://github.com/sedgewick.png" width="60" style="border-radius:50%;" alt="Robert Sedgewick"/>
+      <br />
+      <sub><b>Robert Sedgewick</b></sub>
+      <br />
+      <samp>Princeton Algorithms</samp>
+    </td>
+    <td align="center" width="25%">
+      <img src="https://avatars.githubusercontent.com/u/10893301?v=4" width="60" style="border-radius:50%;" alt="Tim Roughgarden"/>
+      <br />
+      <sub><b>Tim Roughgarden</b></sub>
+      <br />
+      <samp>Stanford Algorithms</samp>
+    </td>
+    <td align="center" width="25%">
+      <img src="https://cdn.simpleicons.org/leetcode/FFA116" width="60" style="border-radius:50%;" alt="LeetCode"/>
+      <br />
+      <sub><b>LeetCode</b></sub>
+      <br />
+      <samp>The Infinite Grind</samp>
+    </td>
+    <td align="center" width="25%">
+      <img src="https://cdn.simpleicons.org/coursera/0056D2" width="60" style="border-radius:50%;" alt="Coursera"/>
+      <br />
+      <sub><b>Coursera</b></sub>
+      <br />
+      <samp>Open Education</samp>
+    </td>
+  </tr>
+</table>
+</div>
+
+<br />
+<br />
+<br />
 
 <div align="center">
   
@@ -111,3 +157,5 @@ Defined path for the 2026 training cycle.
   
   <sub>Built with 💌 and discipline by <a href="https://github.com/derwins8a">@derwins8a</a></sub>
 </div>
+
+<img src="https://raw.githubusercontent.com/derwins8a/kenshu/refs/heads/main/footer-dark-mode.svg" width="100%"/>
