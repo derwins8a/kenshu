@@ -1,0 +1,35 @@
+<svg
+  width="854"
+  height="60"
+  viewBox="0 0 854 60"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <style>
+    .text { font-size: 70px; font-weight: 700; font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif; } 
+    .desc { font-size: 20px; font-weight: 500; font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif; } 
+    
+    /* This handles the internal path rotation you had */
+    .rotated-path { 
+      transform: rotate(180deg); 
+      transform-origin: 50% 50%; 
+    } 
+
+    .text, .desc { animation: fadeIn 1.2s ease-in-out forwards; } 
+    @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } } 
+  </style>
+<defs>
+              <linearGradient id="linear" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" stop-color="#F00"/><stop offset="100%" stop-color="#faa"/>
+              </linearGradient>
+            </defs>
+
+
+  <g transform="scale(-1, 1)" transform-origin="427 0">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 854 60"
+    >
+      <path class="rotated-path" fill="url(#linear)" fill-opacity="1" d="m 0 0 l 854 60 l 0 -60 l -854 0 z"></path>
+    </svg>
+  </g>
+</svg>
